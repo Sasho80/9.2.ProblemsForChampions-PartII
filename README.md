@@ -1,4 +1,4 @@
-Problem: Passion Shopping Days
+01.Problem: Passion Shopping Days
 Lina has a real shopping passion. When she has some money, she immediately goes to the closest 
 shopping center (mall) and tries to spend as much as she can on clothes, bags and shoes. But her 
 favorite thing are winter sales. Our task is to analyze her strange behavior and calculate the purchases
