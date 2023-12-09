@@ -47,3 +47,33 @@ Constraints
 • Allowed memory: 16 MB.
 Sample Input and Output
 ![image](https://github.com/Sasho80/9.2.ProblemsForChampions-PartII/assets/7139995/efb24cde-4572-472a-bec5-8e83e97e52ef)
+
+03.Problem: Bulls and Cows
+We all know the game called "Bulls and Cows": http://en.wikipedia.org/wiki/Bulls_and_cows. Upon 
+having a particular 4-digit secret number and a 4-digit suggested number, the following rules are 
+applied:
+• If a digit in the suggested number matches a digit in the secret number and is located at the
+same position, we have a bull.
+• If a digit in the suggested number matches a digit in the secret number, but is located at a
+different position, we have a cow.
+![image](https://github.com/Sasho80/9.2.ProblemsForChampions-PartII/assets/7139995/7a5d80b6-f674-4c02-9b81-47f8bc1466a1)
+Upon having a particular secret number and the bulls and cows pertaining to it, our task is to find all 
+possible suggested numbers in ascending order.
+If there are no suggested numbers that match the provided criteria provided, we must print "No".
+Input Data
+The input data is read from the console. The input consists of 3 text lines:
+• The first line contains the secret number.
+• The second line contains the number of bulls.
+• The third line contains the number of cows.
+The input data will always be valid. There is no need to verify them.
+Output Data
+The output data must be printed on the console. The output must consist of a single line, holding all 
+suggested numbers, space separated. If there are no suggested numbers that match the criteria 
+provided from the console, we must print “No”.
+Constraints
+• The secret number will always consist of 4 digits in the range [1..9].
+• The number of cows and bulls will always be in the range [0..9].
+• Allowed execution time: 0.15 seconds.
+• Allowed memory: 16 MB.
+Sample Input and Output
+![image](https://github.com/Sasho80/9.2.ProblemsForChampions-PartII/assets/7139995/15d8a73b-0904-4583-9a58-da61a14f3c23)
